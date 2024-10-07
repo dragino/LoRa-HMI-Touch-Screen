@@ -1,0 +1,19 @@
+{
+    "idf.adapterTargetName": "esp32s3",
+    "idf.portWin": "COM3",
+    "idf.flashType": "UART",
+    "files.associations": {
+        "ui.h": "c",
+        "bsp_i2c.h": "c",
+        "lv_demos.h": "c",
+        "lv_demo_keypad_encoder.h": "c",
+        "lv_demo_stress.h": "c",
+        "lv_demo_music.h": "c",
+        "lv_demo_benchmark.h": "c",
+        "lv_demo_widgets.h": "c"
+    },
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32.cfg"
+    ]
+}
